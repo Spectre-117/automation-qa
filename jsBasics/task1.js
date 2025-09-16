@@ -1,10 +1,10 @@
-let name = "Serhii";
-let age = 34;
-let isTester = true;
-let personalProject = undefined;
-let asteroidsInSystem = 1234567890n;
-let highestMark = Symbol("A");
-let carObject = null;
+const name = "Serhii";
+const age = 34;
+const isTester = true;
+const personalProject = undefined;
+const asteroidsInSystem = 1234567890n;
+const highestMark = Symbol("A");
+const carObject = null;
 
 console.log('My name is ', name);
 console.log('I\'m ',age);
