@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "node node-basics/index.js",
-    "test2": "node node-basics/index.js"
+    "test2": "node node-basics/index.js",
+    "task1": "node jsBasics/task1.js",
+    "task2": "node jsBasics/task2.js",
+    "task3": "node jsBasics/task3.js",
+    "task4": "node jsBasics/task4.js"
   },
   "repository": {
     "type": "git",
