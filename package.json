@@ -10,7 +10,10 @@
     "task1": "node jsBasics/task1.js",
     "task2": "node jsBasics/task2.js",
     "task3": "node jsBasics/task3.js",
-    "task4": "node jsBasics/task4.js"
+    "task4": "node jsBasics/task4.js",
+    "task11": "node jsLoopsConditions/task1.js",
+    "task12": "node jsLoopsConditions/task2.js",
+    "task13": "node jsLoopsConditions/task3.js"
   },
   "repository": {
     "type": "git",
