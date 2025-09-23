@@ -1,15 +1,15 @@
-function square(height, width) {
+function calculateSquare(height, width) {
     return height * width;
 }
 
-const square2 = function (height, width) {
+const calculateSquare2 = function (height, width) {
     return height * width;
 }
 
-const square3 = (height, width) => {
+const calculateSquare3 = (height, width) => {
     return height * width;
 }
 
-console.log(square(5,10));
-console.log(square2(5,10));
-console.log(square3(5,10));
+console.log(calculateSquare(5, 10));
+console.log(calculateSquare2(5, 10));
+console.log(calculateSquare3(5, 10));
