@@ -1,7 +1,7 @@
-function mult(factor){
-    return function (x){
-        return x*factor;
-    }
+function mult(factor) {
+  return function (x) {
+    return x * factor;
+  };
 }
 
 const name = mult(3);
