@@ -13,7 +13,7 @@ function getUserByID(id) {
 getUserByID(2);
 
 function printLine() {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {  // return new Promise((resolve,reject) => {
     setTimeout(() => {
       resolve('This string will be printed');
     }, 2000);

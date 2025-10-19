@@ -63,3 +63,5 @@ const timerRecID = setTimeout(
   },
   2000,
 );
+
+timerRecID;

@@ -16,7 +16,7 @@ console.log(
   `Status of personal project: ${personalProject}`,
 );
 console.log(
-  `I\'ve sold my car. My current car: ${carObject}`,
+  `I've sold my car. My current car: ${carObject}`,
 );
 console.log(
   'Solar system has such amount of asteroids: ',
