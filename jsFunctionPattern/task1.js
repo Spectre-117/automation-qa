@@ -1,17 +1,21 @@
 function handleEvenMain() {
-    console.log("number is even");
+  console.log('number is even');
 }
 
 function handleOddMain() {
-    console.log("number is odd");
+  console.log('number is odd');
 }
 
-function handleNum(number, handleEven, handleOdd) {
-    if (number % 2 === 0) {
-        handleEven();
-        return;
-    }
-    handleOdd();
+function handleNum(
+  number,
+  handleEven,
+  handleOdd,
+) {
+  if (number % 2 === 0) {
+    handleEven();
+    return;
+  }
+  handleOdd();
 }
 
 handleNum(5, handleEvenMain, handleOddMain);
